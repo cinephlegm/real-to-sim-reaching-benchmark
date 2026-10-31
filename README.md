@@ -96,6 +96,36 @@ The robot descriptions are **not redistributed here**. Obtain them from their or
 
 ## Citation
 
-If you use this repository or its data, cite the dissertation:
+If you use this repository or its data, cite the dissertation.
 
-> Josef Carl Muscat, *Real-To-Sim Learning for Dexterous Arm and Hand-Manipulation Tasks*, BSc (Hons) Digital Games Development dissertation, MCAST Institute of Information and Communication Technology, 2026.
+### IEEE
+
+```text
+J. C. Muscat, "Real-To-Sim Learning for Dexterous Arm and Hand-Manipulation Tasks," B.Sc. (Hons) dissertation, Institute of Information and Communication Technology, MCAST, Malta, 2026.
+```
+
+### Harvard
+
+```text
+Muscat, J.C. (2026) Real-To-Sim Learning for Dexterous Arm and Hand-Manipulation Tasks. BSc (Hons) dissertation. MCAST Institute of Information and Communication Technology.
+```
+
+### APA
+
+```text
+Muscat, J. C. (2026). Real-To-Sim Learning for Dexterous Arm and Hand-Manipulation Tasks [BSc (Hons) dissertation, MCAST Institute of Information and Communication Technology].
+```
+
+### BibTeX
+
+```bibtex
+@thesis{muscat2026realtosim,
+  author      = {Josef Carl Muscat},
+  title       = {Real-To-Sim Learning for Dexterous Arm and Hand-Manipulation Tasks},
+  type        = {BSc (Hons) dissertation},
+  institution = {MCAST Institute of Information and Communication Technology},
+  year        = {2026}
+}
+```
+
+GitHub can also read the repository citation metadata from `CITATION.cff`.
