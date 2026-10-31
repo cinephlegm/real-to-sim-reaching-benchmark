@@ -23,8 +23,8 @@ models/
 run_logs/
 *.onnx
 
-# Raw/demo data handled deliberately
-*.demo
+# Capture model downloaded by capture/mediapipe_sender.py
+capture/hand_landmarker.task
 
 # Python
 .venv/
