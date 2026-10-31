@@ -29,7 +29,8 @@ The evaluation measures **target-region entry**, not a controlled release, so th
 
 ```text
 capture/    Kinect v2 / MediaPipe hand capture and UDP sender
-data/       compact training summary and 800-episode robustness dataset
+data/       demonstrations, training summary and robustness dataset
+paper/      submitted dissertation PDF
 training/   ML-Agents configurations for both conditions
 unity/      custom Unity scripts and exact package metadata
 ```
@@ -81,7 +82,11 @@ The robot descriptions are **not redistributed here**. Obtain them from their or
 
 [`data/stress_test_results.csv`](data/stress_test_results.csv) contains the **800 inference episodes** from the eight-condition robustness evaluation.
 
-The 60 ML-Agents demonstration files will be included with the final public research archive; they are generated data from this project, not third-party assets.
+[`data/demos/`](data/demos/) contains the **60 ML-Agents demonstration files** used by both training conditions.
+
+## Dissertation
+
+[Read the submitted dissertation (PDF)](paper/dissertation.pdf).
 
 ## Citation
 
