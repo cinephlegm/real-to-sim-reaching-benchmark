@@ -1,0 +1,5 @@
+mediapipe==0.10.35
+numpy==2.4.4
+opencv-python==4.13.0.92
+pykinect2==0.1.0
+comtypes==1.4.16

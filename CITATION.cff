@@ -1,0 +1,8 @@
+cff-version: 1.2.0
+message: "If you use this repository or its data, please cite the dissertation."
+title: "Real-To-Sim Learning for Dexterous Arm and Hand-Manipulation Tasks"
+type: software
+authors:
+  - family-names: "Muscat"
+    given-names: "Josef Carl"
+repository-code: "https://github.com/cinephlegm/real-to-sim-reaching-benchmark"
