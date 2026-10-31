@@ -17,6 +17,12 @@ The final agent uses **27 observations**, **13 continuous actions**, and a datas
 
 Exact trainer settings are kept in [`training/`](training/).
 
+## Known implementation limitation
+
+The MediaPipe capture script computes finger-joint angles from normalized image landmarks. Because MediaPipe normalizes image `x` and `y` against different frame dimensions, those coordinates are not isotropic. This can introduce orientation-dependent error into the derived finger-curl values.
+
+This behaviour is preserved here because it was part of the implementation used to record the submitted demonstration dataset. Changing it now would make the published capture code differ from the experiment that produced the dissertation results.
+
 ## Findings
 
 Behavioural Cloning learned parts of the demonstrated behaviour but did not complete the target-region task reliably. PPO refinement produced reliable grasp-and-transport behaviour in the fixed training layout.
