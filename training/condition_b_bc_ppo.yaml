@@ -2,7 +2,7 @@
 # Behavioural Cloning provides a shaped prior; PPO + extrinsic reward refines it.
 # Run from repo root:
 #   conda activate unity-ml
-#   mlagents-learn Python/configs/condition_b_bc_ppo.yaml --run-id=condition_b --force
+#   mlagents-learn training/condition_b_bc_ppo.yaml --run-id=condition_b --force
 
 behaviors:
   PickPlace:
@@ -25,7 +25,7 @@ behaviors:
         gamma: 0.99
         strength: 1.0       # Condition B: PPO reward signal active
     behavioral_cloning:
-      demo_path: ./Dissertation-Project/Demos
+      demo_path: ./data/demos
       steps: 500000         # BC prior seeds policy for first 500k steps
       strength: 1.0         # identical strength to Condition A during BC phase
     max_steps: 10000000
