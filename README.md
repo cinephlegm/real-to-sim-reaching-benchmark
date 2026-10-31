@@ -128,4 +128,3 @@ Muscat, J. C. (2026). Real-To-Sim Learning for Dexterous Arm and Hand-Manipulati
 }
 ```
 
-GitHub can also read the repository citation metadata from `CITATION.cff`.
